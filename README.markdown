@@ -4,7 +4,9 @@
 ![compile](/docs/app-properties.png)
 
 - Register COM Component (Example x64)
-`C:\Windows\Microsoft.NET\Framework64\v4.0.30319>RegAsm.exe "A:\WKS-VisualStudio\faker-cs\src\Faker.NET47\bin\x64\Release\Faker.NET47.dll"`
+```
+C:\Windows\Microsoft.NET\Framework64\v4.0.30319>RegAsm.exe "A:\WKS-VisualStudio\faker-cs\src\Faker.NET47\bin\x64\Release\Faker.NET47.dll"
+```
 
 - Test COM Component (Example ISE Powershell)
 ![test-com](/docs/test-com-powershell.png)
